@@ -1,0 +1,104 @@
+
+body{
+    height: 100vh;
+}
+
+/* =========== CBE LOGIN PAGE =========== */
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar{
+    background-color: var(--clr-green);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-bottom: 1rem;
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    height: 100px;
+}
+
+.jeta-name{
+    font-size: 1.5rem;
+}
+
+form{
+    height: 100vh;
+}
+
+form > div{
+    width: 65%;
+}
+
+.regContainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: max-content;
+}
+
+input.regInput{
+    height: 40px;
+    width: 400px;
+    border-radius: 8px;
+    border: 2px solid rgb(170, 170, 170);
+    padding: 8px;
+    outline: none;
+    font-size: 14px;
+    font-family: var(--ff-main);
+}
+
+.loginBtn{
+    outline: none;
+    border: 0;
+    color: white;
+    background-color: var(--clr-red);
+    font-size: 18px;
+    border-radius: 8px;
+    height: 100%;
+    padding: 0 1.8rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    width: max-content;
+}
+
+.submitBtn:hover{
+    box-shadow: 3px 0px 20px rgb(255, 172, 172);
+}
+
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-red);
+    padding: 0.75rem 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.main-footer p{
+    font-size: 14px;
+}
+
+.main{
+    background-image: url(../image/exambackground.jpeg);
+    background-size: cover;
+}
